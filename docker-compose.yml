@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: local.Dockerfile # local development Dockerfile
+    environment:
+      - USER=$USER
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app:cached
+      - /usr/src/app/target
+      - /usr/src/app/book
+    working_dir: /usr/src/app
