@@ -1,10 +1,10 @@
 FROM rust:buster
 
+# Install dependencies and mdbook preprocessors
 RUN apt-get update && \
-    apt-get install -y build-essential openjdk-11-jre graphviz plantuml && \
-    rm -rf /var/lib/apt/lists/*
-
-RUN cargo install mdbook && \
+    apt-get install --fix-missing -y build-essential openjdk-11-jre graphviz plantuml && \
+    rm -rf /var/lib/apt/lists/* && \
+    cargo install mdbook && \
     cargo install mdbook-toc && \
     cargo install mdbook-footnote && \
     cargo install mdbook-emojicodes && \
@@ -13,6 +13,9 @@ RUN cargo install mdbook && \
     cargo install mdbook-plantuml && \
     cargo install mdbook-admonish && \
     cargo install mdbook-i18n-helpers
+
+# Add cargo bin directory to PATH
+ENV PATH="/root/.cargo/bin:${PATH}"
 
 WORKDIR /usr/src/app
 
