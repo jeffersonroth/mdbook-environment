@@ -1,0 +1,9 @@
+reference-table:
+  - id: "admonish"
+    path: "admonish.md"
+  - id: "audita-quot"
+    path: "content/audita-quot.md"
+  - id: "bos-quae-inde-limen"
+    path: "content/bos-quae-inde-limen.md"
+  - id: "esse-corpora-achaidas-sacros-ad-quas"
+    path: "content/esse-corpora-achaidas-sacros-ad-quas.md"

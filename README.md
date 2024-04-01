@@ -34,7 +34,13 @@
    git clone https://github.com/jeffersonroth/mdbook-environment.git
    ```
 
-2. Serve the example book locally
+2. Build the docker image locally:
+    
+    ```sh
+    docker build -t local-mdbook-base-image .
+    ```
+
+3. Serve the example book locally
 
    ```sh
    docker compose up
@@ -98,6 +104,7 @@ Before pushing your local branch:
 * [mdbook-catppuccin](https://crates.io/crates/mdbook-catppuccin)
 * [mdbook-i18n-helpers](https://crates.io/crates/mdbook-i18n-helpers):
   * [User Guide](https://github.com/google/mdbook-i18n-helpers/blob/HEAD/i18n-helpers/USAGE.md)
+* [mdbook-reference-table](https://crates.io/crates/mdbook-reference-table)
 * [~~mdbook-linkcheck~~](https://crates.io/crates/mdbook-linkcheck)
 * [~~mdbook-i18n~~](https://crates.io/crates/mdbook-i18n)
 * [~~mdbook-svgbob~~](https://crates.io/crates/mdbook-svgbob)

@@ -19,3 +19,10 @@ Genibus vasta veniens, quondam artus. Cavo Pythia *quod*, suae utque verba non l
 > Abluere nec. Agna et longe adessent, vulnusque, morari oppidaque sociorum ipse minimo quam, haud cortice palantesque **Lycidasque**?
 
 Aut est et neque erat villosis avium moverat! Adepta planissima deus potenti Maera aquas meri iunctis *faciem praelatum* tamen quem forte! Et nubes vitiumque cupit et credit trita, cum [idonea](http://www.vult.io/) est hiems.
+
+## References
+
+- {{reference: {id: "admonish", title: "Admonish"}}}
+- {{reference: {id: "audita-quot", title: "Audit quot"}}}
+- {{reference: {id: "bos-quae-inde-limen", title: "Bos quae inde lime"}}}
+- {{reference: {id: "esse-corpora-achaidas-sacros-ad-quas", title: "Esse corpora Achaidas sacros ad quas"}}}
