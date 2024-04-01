@@ -52,3 +52,9 @@ A --|> B
 ```
 
 Constituis ut undis si ipsa rex *temeraria* arma gramina. **Iliaden frementis** orasse iamque vaporem.
+
+## References
+
+- {{reference: {id: "audita-quot", title: "Audit quot"}}}
+- {{reference: {id: "bos-quae-inde-limen", title: "Bos quae inde lime"}}}
+- {{reference: {id: "esse-corpora-achaidas-sacros-ad-quas", title: "Esse corpora Achaidas sacros ad quas"}}}

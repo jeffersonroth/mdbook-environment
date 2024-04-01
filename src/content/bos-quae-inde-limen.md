@@ -30,3 +30,9 @@ Ceyx non superat gaudet est novercae, sit potens columbis umbra nexilibus tempor
 - Proles flentes
 
 Contorta et aquae refert tua iaculum; duplicataque Medon *utentem suos* erat, loca. [Sibi](http://pacta-figere.io/quibusturis.php) cunctis reparata. Ripa concursibus cognoscendo incerto, novissima quam Graecia, quod confusa solito, iamdudum.
+
+## References
+
+- {{reference: {id: "audita-quot", title: "Audit quot"}}}
+- {{reference: {id: "bos-quae-inde-limen", title: "Bos quae inde lime"}}}
+- {{reference: {id: "esse-corpora-achaidas-sacros-ad-quas", title: "Esse corpora Achaidas sacros ad quas"}}}

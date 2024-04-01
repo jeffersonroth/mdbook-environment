@@ -11,6 +11,9 @@ renderer = ["html"]
 marker = "* auto-gen TOC;\n{:toc}"
 max-level = 4
 
+[preprocessor.reference-table]
+reference-table = "./reference-table.yaml"
+
 [preprocessor.footnote]
 
 [preprocessor.emojicodes]
@@ -18,7 +21,6 @@ max-level = 4
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 
-# PlantUML
 [preprocessor.plantuml]
 plantuml-cmd = "java -jar /usr/share/plantuml/plantuml.jar"
 
