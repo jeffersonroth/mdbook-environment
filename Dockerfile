@@ -13,7 +13,8 @@ RUN apt-get update && \
     cargo install mdbook-plantuml && \
     cargo install mdbook-admonish && \
     cargo install mdbook-i18n-helpers && \
-    cargo install mdbook-reference-table
+    cargo install mdbook-reference-table && \
+    cargo install mdbook-metadata
 
 # Add cargo bin directory to PATH
 ENV PATH="/root/.cargo/bin:${PATH}"
