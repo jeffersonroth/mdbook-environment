@@ -14,6 +14,12 @@ max-level = 4
 [preprocessor.reference-table]
 reference-table = "./reference-table.yaml"
 
+[preprocessor.metadata]
+valid-tags = ["title", "author", "keywords", "released"]
+default-author = "Jefferson Roth"
+default-released = false
+continue-on-error = true
+
 [preprocessor.footnote]
 
 [preprocessor.emojicodes]

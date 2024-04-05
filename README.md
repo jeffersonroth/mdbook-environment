@@ -63,7 +63,7 @@ Before pushing your local branch:
 1. Serve the example book locally:
     
     ```sh
-    docker compose up
+    docker compose up --force-recreate --build
     ```
 
 1. Review the content in [localhost](localhost:3000)
